@@ -88,7 +88,7 @@ const Home = ({ navigation }) => {
     return (
         <View style={styles.viewStyle}>
             <View styles={styles.header}>
-                <Text style={styles.webTitle}>Enni's Task List</Text>
+                <Text style={styles.webTitle}>Task List</Text>
                 <Button title="Add Task" style={{margin: 10}}
                         onPress={() => navigation.navigate('Add')}/>
                 <Button title="Overall Status"
